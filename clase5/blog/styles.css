@@ -1,0 +1,42 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: gray;
+    min-height: 100vh;
+}
+
+main {
+    width: 100%;
+}
+
+header h1 {
+    text-align: center;
+}
+
+.blogList {
+    width: 80%;
+    margin: 20px auto;
+    padding: 10px;
+    border: 1px solid #000;
+}
+
+.post {
+    background-color: lightcoral;
+    width: 100%;
+    color: whitesmoke;
+    text-align: center;
+    margin: 20px 0;
+}
+
+/* media query */
+
+@media screen and (min-width:768px) {
+    .post {
+        width: 50%;
+        display: inline-block;
+    }
+}

@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.cajaUno {
+    position:relative;
+    top: 300px;
+    left: 500px;
+    background-color: palevioletred;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+.cajaDos {
+    position:absolute;
+    top: 280px;
+    left: 450px;
+    background-color: cyan;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+
+.cajaTres {
+    position:absolute;
+    top: 290px;
+    left: 750px;
+    background-color: cyan;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}

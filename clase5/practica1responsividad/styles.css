@@ -1,0 +1,67 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: aquamarine;
+}
+
+#mobile{
+    display: block;
+}
+
+#tablet{
+    display: none;
+}
+
+#laptop{
+    display: none;
+}
+
+#xxl{
+    display: none;
+}
+
+@media screen and (min-width:768px) {
+    body {
+        background-color: greenyellow;
+    }
+
+    #tablet{
+        display: block;
+    }
+
+    #mobile{
+        display: none;
+    }
+}
+
+@media screen and (min-width:992px) {
+    body {
+        background-color: violet;
+    }
+
+    #tablet{
+        display: none;
+    }
+
+    #laptop{
+        display: block;
+    }
+}
+
+@media screen and (min-width:1140px) {
+    body {
+        background-color: orange;
+    }
+
+    #laptop{
+        display: none;
+    }
+
+    #xxl{
+        display: block;
+    }
+}

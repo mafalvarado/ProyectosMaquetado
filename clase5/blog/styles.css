@@ -35,6 +35,12 @@ header h1 {
     display: block ;
 }
 
+.post img {
+    width: 50%;
+    margin: 10px auto;
+    display: block;
+  }
+
 /* media query */
 
 @media screen and (min-width:768px) {

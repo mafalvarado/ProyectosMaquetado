@@ -32,7 +32,6 @@ header h1 {
     color: whitesmoke;
     text-align: center;
     margin: 20px 0;
-    display: block ;
 }
 
 .post img {
@@ -46,6 +45,20 @@ header h1 {
 @media screen and (min-width:768px) {
     .post {
         width: 50%;
+        display: inline-block;
+    }
+}
+
+@media screen and (min-width:992px) {
+    .post {
+        width: 35%;
+        display: inline-block;
+    }
+}
+
+@media screen and (min-width:1440px) {
+    .post {
+        width: 25%;
         display: inline-block;
     }
 }

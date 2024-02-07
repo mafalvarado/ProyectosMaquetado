@@ -1,0 +1,60 @@
+/* mixins */
+body {
+  background-color: aquamarine;
+}
+
+section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+section .post {
+  width: 100%;
+  max-width: 300px;
+  background-color: antiquewhite;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+section .post img {
+  border-radius: 25%;
+}
+section .post img:hover {
+  width: 150px;
+  height: 150px;
+}
+section .post button {
+  border: 3px solid black;
+  text-align: center;
+  padding: 5px;
+  background-color: transparent;
+  cursor: pointer;
+}
+section .post .content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+section .post .content p {
+  color: black;
+  font-size: 40px;
+  padding: 10px;
+}
+
+/*hero
+
+section id="hero" (antes de la section del articulo)
+
+#hero {
+    background-image:url("ghdfhkj")
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:100vh;      min-height (toda la pantalla)
+}
+
+*//*# sourceMappingURL=main.css.map */

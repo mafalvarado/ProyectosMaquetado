@@ -1,0 +1,57 @@
+@import "global";
+
+
+body {
+    background-color: aquamarine;
+}
+
+
+section {
+    width: 100%;
+    @include flexColumnCenter();
+
+ .post {
+    width: 100%;
+    max-width: 300px;
+    background-color: antiquewhite;
+    padding: $postSpacing;
+    @include flexColumnCenter();
+
+
+    img {
+        border-radius: 25%;
+        &:hover {
+            width: 150px;
+            height: 150px;
+        }
+    }
+
+    button {
+        @include btnPost();
+    }
+
+    .content {
+        @include flexColumnCenter();
+        p {
+            color: $backColor;
+            font-size: 40px;
+            padding: $postSpacing;
+        }
+    }
+  }
+
+}
+
+/*hero
+
+section id="hero" (antes de la section del articulo)
+
+#hero {
+    background-image:url("ghdfhkj")
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:100vh;      min-height (toda la pantalla)
+}
+
+*/
+

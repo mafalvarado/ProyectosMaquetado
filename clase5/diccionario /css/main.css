@@ -1,0 +1,45 @@
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  background-color: rgb(219, 96, 104);
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+  background-color: rgb(232, 158, 48);
+  width: auto;
+}
+
+main {
+  width: auto;
+}
+
+section {
+  width: auto;
+}
+
+article {
+  width: auto;
+  background-color: rgb(248, 150, 156);
+  height: 500px;
+}
+
+ul {
+  list-style: none;
+}
+
+.sticky {
+  background-color: rgb(219, 96, 104);
+  padding: 5px;
+  position: sticky;
+  top: 20px;
+  text-align: center;
+}
+
+.list {
+  display: flex;
+  align-items: start;
+  font-size: 30px;
+}/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,36 @@
+body {
+    padding-top: 56px;
+    background-color: rgb(36, 35, 35);
+}
+
+
+.showcase {
+    background-color:  rgb(249, 249, 244);
+}
+
+.columnStyle {
+    height: 400px;
+    
+}
+
+.colBackground {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.showcase-text {
+    padding: 50px;
+}
+
+#contact {
+    background: url("https://fastly.picsum.photos/id/912/1920/1080.jpg?grayscale&hmac=Tm7SjDulVY4QtEgJnZMBK7gIKzbqFLevaXLHekBfMxg") no-repeat center;
+}
+
+#contact h2{
+    font-weight: bold ;
+} 
+
+#contact p {
+    font-weight: bold ;
+} 
+
